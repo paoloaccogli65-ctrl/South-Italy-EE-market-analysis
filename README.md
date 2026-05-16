@@ -55,8 +55,8 @@ with a focus on quantitative methods applied to energy markets.
 ## How to Run
 
 1. Download hourly zonal prices from [GME website](https://www.mercatoelettrico.org)
-2. Place Excel files in the `data/` folder
-3. Run scripts in order: `01_load_data.py` → `05_xgboost.py`
+2. Place Excel files in the `dataSUD/` folder
+3. Run scripts in order: `ExcelFiles.py` → `XGboost.py`
 
 ## Author
 
