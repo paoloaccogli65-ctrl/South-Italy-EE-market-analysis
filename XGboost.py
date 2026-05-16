@@ -5,7 +5,7 @@ from xgboost import XGBRegressor
 from sklearn.metrics import mean_absolute_error
 
 # Carica dati
-df = pd.read_csv(r"C:\Users\paolo\OneDrive\Desktop\EnergyProject\data\prezzi_sud_2025.csv",
+df = pd.read_csv(r"C:\Users\paolo\OneDrive\Desktop\EnergyProject\dataSUD\prezzi_sud_2025.csv",
                  sep=';', parse_dates=['datetime'])
 
 df = df[df['prezzo'] > 1].reset_index(drop=True)

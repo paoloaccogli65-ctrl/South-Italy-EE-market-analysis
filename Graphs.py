@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Carica dati
-df = pd.read_csv(r"C:\Users\paolo\OneDrive\Desktop\EnergyProject\data\prezzi_sud_2025.csv", 
+df = pd.read_csv(r"C:\Users\paolo\OneDrive\Desktop\EnergyProject\dataSUD\prezzi_sud_2025.csv", 
                  sep=';', parse_dates=['datetime'])
 
 # Aggiungi colonne utili

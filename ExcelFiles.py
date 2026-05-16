@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import glob
 
-data_folder = r"C:\Users\paolo\OneDrive\Desktop\EnergyProject\data"
+data_folder = r"C:\Users\paolo\OneDrive\Desktop\EnergyProject\dataSUD"
 
 all_files = glob.glob(os.path.join(data_folder, "*.xlsx"))
 
@@ -28,6 +28,6 @@ print(f"\nPrezzo medio: {df['prezzo'].mean():.2f} €/MWh")
 print(f"Prezzo min:   {df['prezzo'].min():.2f} €/MWh")
 print(f"Prezzo max:   {df['prezzo'].max():.2f} €/MWh")
 
-df.to_csv(r"C:\Users\paolo\OneDrive\Desktop\EnergyProject\data\prezzi_sud_2025.csv", 
+df.to_csv(r"C:\Users\paolo\OneDrive\Desktop\EnergyProject\dataSUD\prezzi_sud_2025.csv", 
           index=False, sep=';')
 print("\nFile CSV salvato!")

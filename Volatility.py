@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # 1. Carica dati
-df = pd.read_csv(r"C:\Users\paolo\OneDrive\Desktop\EnergyProject\data\prezzi_sud_2025.csv",
+df = pd.read_csv(r"C:\Users\paolo\OneDrive\Desktop\EnergyProject\dataSUD\prezzi_sud_2025.csv",
                  sep=';', parse_dates=['datetime'])
 
 # 2. Rimuove prezzi anomali
